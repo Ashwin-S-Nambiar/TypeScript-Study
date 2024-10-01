@@ -3,8 +3,8 @@
 */
 
 let tech = 'Typescript';
-let num = 10;
+let number = 10;
 let bool = true
 
-console.log(tech,num,bool);   // Output => TypeScript 10 true
-console.log(typeof tech,typeof num,typeof bool);    // Output => string number boolean
+console.log(tech,number,bool);   // Output => TypeScript 10 true
+console.log(typeof tech,typeof number,typeof bool);    // Output => string number boolean
