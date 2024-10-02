@@ -4,7 +4,7 @@
 
 let tech = 'Typescript';
 let number = 10;
-let bool = true
+let bool = true;
 
 console.log(tech,number,bool);   // Output => TypeScript 10 true
 console.log(typeof tech,typeof number,typeof bool);    // Output => string number boolean

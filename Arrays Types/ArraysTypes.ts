@@ -18,6 +18,6 @@ console.log(numbers);   // Output => [ 1, 2, 3, 4, 5 ]
 
 // (2)   
 const items: Array<string> = ["abc","def","xyz"];
-console.log(items)  // Output => [ 'abc', 'def', 'xyz' ]
-items.push("hello")
-console.log(items)  // Output => [ 'abc', 'def', 'xyz', 'hello' ]
+console.log(items);  // Output => [ 'abc', 'def', 'xyz' ]
+items.push("hello");
+console.log(items);  // Output => [ 'abc', 'def', 'xyz', 'hello' ]

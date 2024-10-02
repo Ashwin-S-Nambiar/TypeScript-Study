@@ -6,7 +6,7 @@ let myName: string = "Ashwin";
 console.log(myName);  // Output => Ashwin
 
 let num : number = 8;
-console.log(num)  //Ouput => 8
+console.log(num);  //Ouput => 8
 
 // If we set 'num = true' => it will give an error that it is not assignable.
 
