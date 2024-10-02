@@ -2,4 +2,18 @@
     The never type is useful for indicating that certain code paths should never be reached, or that certain values are impossible. 
     Used to catch errors at compile-time. */
 
-    
+function throwError(msg: string): never {
+    throw new Error(msg);
+}    
+
+function infiniteLoop(): never {
+    while(true) {}
+}
+
+let x: never;
+
+function neverreturns(): never {
+    while (true) {}
+}
+
+//x = neverReturns(); Compile-time Error 
