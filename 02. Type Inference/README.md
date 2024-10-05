@@ -4,6 +4,6 @@
 ## Example
 `let tech = 'Typescript';`
 
-***Here we have not specified the type of `tech` when setting it's value but TypeScript will infer the type automatically as `string`.***
+`console.log(typeof tech); // Output => string`
 
-***Seen here: `console.log(typeof tech); // Output => string`***
+***Here we have not specified the type of `tech` when setting it's value but TypeScript will infer the type automatically as `string`.***
