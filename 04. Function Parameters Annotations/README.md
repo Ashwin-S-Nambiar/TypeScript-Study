@@ -6,4 +6,4 @@
     return num + 1;
 }`
 
-***The `addOne` function above has parameter `num` annotated with type `number`.***
+***The `addOne` function above has parameter `num` annotated with type `number`. If we try to pass any other type to the function as parameter it will result in an error.***
