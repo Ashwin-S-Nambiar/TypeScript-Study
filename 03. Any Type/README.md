@@ -14,4 +14,4 @@
 
 `console.log(color,typeof color); // Output => true boolean`
 
-***Here we can see that `color` is able to have values of different types without any errors.***
+***We can see that `color` is able to have values of different types without any errors.***
