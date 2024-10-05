@@ -34,7 +34,6 @@ interface Vehicle {
 }
 
 //- Class
-
 class Car implements Vehicle {
     start() {
         console.log("Hello!")
@@ -48,3 +47,54 @@ class Car implements Vehicle {
 const myCar = new Car()
 myCar.start() // Output => Hello!
 myCar.stop() // Output => Bye!
+
+// - Interface inheritance
+interface Mailable {
+    send(email: string): boolean
+    queue(email: string): boolean
+}
+interface FutureMailable extends Mailable {
+    later(email: string, after: number): boolean
+}
+class Mail implements FutureMailable {
+    later(email: string, after: number): boolean {
+        console.log(`Send email to ${email} in ${after} ms.`)
+        return true
+    }
+    send(email: string): boolean {
+        console.log(`Sent email to ${email}`)
+        return true
+    }    
+    queue(email: string): boolean {
+        console.log(`Queue an email to ${email}.`)
+        return true
+    }
+}
+
+// ~ Declaration Merging -> refers to the ability to extend or argument an 
+// ~ an existing declaration , including interfaces. Useful in case when you
+// ~ want to add new properties without needing to modify original declaration.
+interface car {
+    brand: string
+    start(): void
+}
+
+// - Declaration Merging
+interface car {
+    model: string
+    stop(): void
+}
+
+const newCar : car = {
+    brand: "Nissan",
+    model: "GTR",
+    start() {
+        console.log(`Hello`)
+    },
+    stop() {
+        console.log(`Bye`)
+    }
+}
+
+newCar.start() // Output => Hello
+newCar.stop() // Output => Bye
