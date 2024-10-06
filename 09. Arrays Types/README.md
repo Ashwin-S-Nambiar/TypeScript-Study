@@ -4,11 +4,9 @@
 ## Example
 ```
 const numbers: number[] = [1,2,3,4];
-
 console.log(numbers);   // Output => [ 1, 2, 3, 4 ]
 
 const items: Array<string> = ["abc","def","xyz"];
-
 console.log(items);  // Output => [ 'abc', 'def', 'xyz' ]
 ```
 ***Arrays can be declared in two ways:***
