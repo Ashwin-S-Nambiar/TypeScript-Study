@@ -4,7 +4,6 @@
 ## Example
 ```
 const matrix: number[][] = [[1,2],[3.4],[5,6]];
-
 console.log(matrix); //Output => [ [ 1, 2 ], [ 3.4 ], [ 5, 6 ] ]
 ```
 ***We can see that `matrix` is a multidimensional array which is initialized using `number[][]`.***
