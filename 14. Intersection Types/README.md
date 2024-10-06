@@ -7,7 +7,7 @@
 type Person = {
     name: string,
     age: number
-}`    
+}
 
 type Employee = {
     id: number,
