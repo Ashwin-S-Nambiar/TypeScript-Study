@@ -1,5 +1,5 @@
 // ~ Literal types allow you to specify a values that can only be one specific literal value.
-// ~ this means that a variable with a literal type can only have one specific value.
+// ~ This means that a variable with a literal type can only have one specific value.
 
 let color: "red" | "blue" | "green"
 color = "red"
