@@ -2,7 +2,7 @@
 ***Type inference is a feature in TypeScript that allows the compiler to automatically determine the type of a variable based on its value. In other words, if you declare a variable without specifying its type, TS will try to infer the type based on its value assigned.***
 
 ## Example
-```
+```ts
 let tech = 'Typescript';
 
 console.log(typeof tech); // Output => string

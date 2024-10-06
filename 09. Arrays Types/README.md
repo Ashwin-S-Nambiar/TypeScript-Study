@@ -2,7 +2,7 @@
 ***Arrays are a type of object that can store multiple values of the same data type. Arrays in TS are typed, which means you can specify the type of values it can hold.***
 
 ## Example
-```
+```ts
 const numbers: number[] = [1,2,3,4];
 console.log(numbers);   // Output => [ 1, 2, 3, 4 ]
 

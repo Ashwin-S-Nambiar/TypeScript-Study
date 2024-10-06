@@ -2,7 +2,7 @@
 ***You can make a certain property optional in an object type by adding a question mark after the property name.***
 
 ## Example
-```
+```ts
 type Person = {
     name: string,
     age: number,

@@ -3,7 +3,7 @@
 
 ## Example
 
-```
+```ts
 type Person = {
     name: string,
     age: number

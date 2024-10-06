@@ -2,7 +2,7 @@
 ***Default Parameter can be set for a function by specifying a value to the parameter in the function declaration.***
 
 ## Example
-```
+```ts
 const triple = (num : number = 6) => num * num * num;
 console.log(triple());  // Output => 216
 ```

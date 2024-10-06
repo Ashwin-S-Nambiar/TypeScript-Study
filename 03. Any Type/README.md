@@ -2,7 +2,7 @@
 ***TypeScript has a special any type that can be used to represent any type. When a variable is annotated with any type, TS will allow it to have any value and disable all type checking for that variable and its properties. This should be used sparingly as overuse can lead to untyped code.***
 
 ## Example
-```
+```ts
 let color: any = 'crimson';
 console.log(color,typeof color); // Output => crimson string
 

@@ -2,7 +2,7 @@
 ***Function parameter annotations in TS are used to specify the expected types of the parameters that a function takes.***
 
 ## Example
-```
+```ts
 function addOne(num: number) {
     return num + 1;
 }

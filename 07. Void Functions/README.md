@@ -3,9 +3,9 @@
 ***Functions that doesn't return any value then we use return type `void`.***
 
 ## Example
-```
+```ts
 function printMessage(message: string): void {
-    console.log("Message: "+ message);` 
+    console.log("Message: "+ message);
 }
 
 printMessage("message"); // Output => Message: message
