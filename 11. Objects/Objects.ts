@@ -3,7 +3,7 @@
     The properties of an object can have specific types, and the
     object itself can be annotated with a type, often defined using
     an interface or type alias. TS uses structural typing, meaning that
-    the shape of an object (its structure) matters for type compatibility */
+    the shape of an object (its structure) matters for type compatibility.*/
 
 // INFO: Syntax => type varName (annotations/types) = {property: value}    
 
