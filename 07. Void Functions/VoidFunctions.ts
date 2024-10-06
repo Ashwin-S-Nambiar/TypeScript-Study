@@ -1,4 +1,4 @@
-function printMessage(message: string) {  // This function returns a type of void.
+function printMessage(message: string): void {  // This function returns a type of void.
     console.log(`Message: ${message}`);
 }
 
