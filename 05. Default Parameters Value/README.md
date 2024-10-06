@@ -4,7 +4,6 @@
 ## Example
 ```
 const triple = (num : number = 6) => num * num * num;
-
 console.log(triple());  // Output => 216
 ```
 ***We can see that if we don't provide a value for
