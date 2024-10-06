@@ -4,15 +4,12 @@
 ## Example
 ```
 let color: any = 'crimson';
-
 console.log(color,typeof color); // Output => crimson string
 
 color = 10;
-
 console.log(color,typeof color); // Output => 10 number
 
 color = true;
-
 console.log(color,typeof color); // Output => true boolean
 ```
 ***We can see that `color` is able to have values of different types without any errors.***
